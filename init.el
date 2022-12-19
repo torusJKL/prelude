@@ -162,7 +162,10 @@ by Prelude.")
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
+;; set theme
 (disable-theme 'zenburn)
-(modus-themes-load-vivendi)
+
+(setq modus-themes-mode-line '(accented borderless padded))
+(modus-themes-load-operandi)
 
 ;;; init.el ends here
